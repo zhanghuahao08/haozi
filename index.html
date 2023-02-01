@@ -1,113 +1,30 @@
-<!DOCTYPE html>
-<html>
-  <head>
- <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
- <title>Minecraft他炸妈之光</title>
-  </head>
-  <style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>天数计算</title>
+    <script type="text/javascript">
+    function getsum(){var numend = parseInt(document.getElementById('numend').value,10);var sum=0;for(var i=1;i<=numend;i++){sum+=i;}document.getElementById('sum').value=sum;}
+    </script>
+ </head>
+ <style>
+    .numend{
+      text-align: center;
+    }
     body{
-        margin: 0;
         height: 100vh;
         background-color: rgb(184, 221, 253)
     }
-    .column{
+    *{
       flex-direction: column;
     }
-    .qunzhu{
-      height: 60px;
-    }
-    .flex1{
-      flex: 1;
-    }
-    .flex2{
-      flex: 2;
-    }
-    .flex4{
-      flex: 5;
-    }
-    .xianshu{
-      width: 70px;
-      height: 70px;
-    }
-    .c{
-      margin-left: 10px;
-    }
-    .y{
-      text-align: center;
-    }
-    .s{
-      margin-top: 20px;
-    }
-    
-    .b{
-      background-color: rgb(241, 236, 245);
-    }
-    .g{
-      font-size:3vw;
-    }
-  </style>
-  <body>
-    <!--介绍区-->
-    <biv class="flex1 column" style="width: 200px;" >
-      <biv class="flex1 y " ><h1>欢迎来到网页</h1></biv>
-      <biv class="flex1 y"><h2>本服务器群主：谭哲铭</h2></biv>
-      <biv class="y"><h2>服务器成员：谭哲铭，范桐钠，张铧浩，张鹏华，江伟本，李纪瑶，彭欣琪，姚丽莹 </h2></biv>
+ </style>
+ <body>
+    <biv>请输入天数：</biv>
+      <biv><input type="text" name="numend" id="numend" />
+      <input type="button" name="btn" onclick="getsum()" value="计算"/>
+      <input type="text" name="sum" id="sum" />
     </biv>
-    <!--个人-->
-   <biv class="flex4 column">
-     <biv><h2>个人介绍：</h2></biv>
-     <!--谭-->
-     <biv>
-       <biv><biv style="color: rgb(248, 55, 55);"><h3>谭哲铭简介：</h3></biv>
-        <biv><h4>略~~~~~~~~~~~~~~</h4></biv>
-      </biv>
-     </biv>
-     <!--范-->
-     <biv>
-       <biv><biv style="color: rgb(247, 159, 45);"><h3>范桐钠简介：</h3></biv>
-         <biv><h4>这个男人叫范桐钠，在之前一个月前，他卑微懦弱在南国动漫社一直被"职场霸凌"就在今天他回家路上遇到一个神明，神明说:可以让你回到一个月前，你愿意吗？醒来之后，他发现时间真的回到了一个月前，但他的脸变成了丁真嗣的模样，他大喊了一声:"我*你们*！"
-          来到南国NERY后，都是他熟悉的面孔，江*本，谭*铭等等，他们一个都能开eva(当时只有范桐钠不能开，所以一个个都霸凌范桐钠)但这次范桐钠换了个身体，是eva的第一适格者……</h4></biv>
-       </biv>
-     </biv>
-     <!--浩-->
-     <biv><biv style="color: rgb(175, 194, 8);"><h3>张铧浩简介：</h3></biv>
-       <biv><h4>这个男人叫阿浩，他用心有担当，温柔儒雅比丁真还纯，坤坤见了都得说，耗你太美。多才多艺啥都会，但你要抄作业时你最可靠的后盾，责任感爆棚，永远勤勤恳恳亲自走在第一线。堪称中国男人的榜样。美国五星上将麦克阿瑟曾说过：阿浩才是真正的man。你的大腚熠熠生辉，为善良有担当的阿浩献上三重礼炮。</h4></biv>
-     </biv>
-     <!--猪-->
-     <biv>
-       <biv><biv style="color: rgb(24, 230, 69);"><h3>张鹏华简介:</h3></biv></biv>
-         <biv><h4>这个男人叫猪哥，他极度的自律，跑到12点都不回家，回家之后更是会在精神世界里狂奔六小时，其意志力彭于晏见了都得递根烟美国五星上将麦克阿瑟曾经说过，如果他能上战场，他会把敌人卷死蓝色妖姬也是在给他三年的时间自律，他能在我最骄傲的速度上秒杀，我注明欠导师屠宰也曾坦言，猪哥是第一个不会对着他导的人。其间的意志力，让篮球之神乔丹看了也说单论天赋，我可以秒他可他却比我还自律，总有一月会超过我有一天他的速度快，到了极致。</h4></biv>
-       </biv>
-     </biv>
-     <!--江-->
-     <biv>
-       <biv><biv style="color: rgb(54, 89, 247);"><h3>江伟本简介：</h3></biv>
-         <biv><h4>略~~~~~~~~~~~~~~</h4></biv>
-      </biv>
-     </biv>
-     <!--纪-->
-     <biv>
-       <biv><biv style="color: rgb(117, 12, 255);"><h3>李纪瑶简介：</h3></biv>
-        <biv><h4>他是卡哇伊的瑶瑶酱，世人称她为：金鱼姬 sa ma！如此撼动的名字配他那深入骨髓的变态，简直绰绰有余，他画技了得人体超强只可惜不！画！涩！图！不过没关系，他依然是我们敬爱的金鱼姬 sa ma！</h4></biv>
-      </biv>
-     </biv>
-     <!--彭-->
-     <biv>
-       <biv><biv style="color: rgb(243, 43, 226);"><h3>彭欣琪简介：</h3></biv>
-         <biv><h4>风流倜傥，玉树临风，是拥有481块腹肌的lsp！又是高eq的2m8的南国帅哥（敢做！敢撩！）pxq！</h4></biv>
-      </biv>
-     </biv>
-     <!--姚-->
-     <biv>
-       <biv><biv style="color: rgb(247, 13, 32);"><h3>姚丽莹简介：</h3></biv>
-        <biv><h4>他是万人敬仰的啵啵之母，他受人尊敬惹人喜爱，凭这独特的歌喉一举成名，当然在纯粹的歌喉也抵挡不住他变态的内心，这就是他受人敬仰的原因</h4></biv>
-       </biv>
-     </biv>
-     <!--声明-->
-    </biv>
-    <biv class="y" style="color: rgb(250, 0, 0);">
-      <biv><h6>本网站的个人介绍仅娱乐！！！</h6></biv>
-      <biv><h6>请勿当真！！！</h6></biv>
-    </biv>
-  </body>
-</html
+    <biv>元</biv>
+</body>
+</html>
